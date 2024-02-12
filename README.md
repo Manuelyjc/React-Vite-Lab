@@ -2,7 +2,7 @@
 Este repositorio contiene el código fuente para un laboratorio práctico donde exploraremos el desarrollo de aplicaciones web utilizando React junto con Vite como herramienta de construcción.
 
 # Instrucciones
-1-Clona este repositorio en tu máquina local utilizando el comando git clone.
+1-Clona este repositorio en tu máquina local utilizando la opcion GitHub Destok vamos a clone repository y colocamos la URl del repositorio.
 
 2-Instala las dependencias del proyecto utilizando npm install o yarn install.
 
