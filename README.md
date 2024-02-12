@@ -9,3 +9,10 @@ Este repositorio contiene el código fuente para un laboratorio práctico donde 
 3-Ejecuta el servidor de desarrollo utilizando npm run dev o yarn dev.
 
 4-¡Explora el código y comienza a desarrollar tu propia aplicación!
+
+
+# Recursos adicionales
+
+1-https://vitejs.dev/ 
+
+2-https://create-react-app.dev/ 
