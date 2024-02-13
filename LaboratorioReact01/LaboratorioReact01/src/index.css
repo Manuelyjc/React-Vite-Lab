@@ -1,0 +1,32 @@
+/* Establece los estilos para el cuerpo de la página */
+body {
+  /* Elimina los márgenes predeterminados */
+  margin: 0;
+
+  /* Establece el color de fondo */
+  background: #252525;
+
+  /* Define la fuente del sistema del usuario */
+  font-family: system-ui;
+
+  /* Utiliza el modelo de caja de visualización como una cuadrícula */
+  display: grid;
+
+  /* Centra el contenido vertical y horizontalmente */
+  place-content: center;
+
+  /* Establece la altura mínima del cuerpo de la página */
+  min-height: 100vh;
+}
+
+/* Establece los estilos para el contenedor principal de la aplicación */
+.App {
+  /* Utiliza un contenedor flexible */
+  display: flex;
+
+  /* Organiza los elementos hijos en una columna */
+  flex-direction: column;
+
+  /* Establece un espacio entre los elementos hijos */
+  gap: 8px;
+}

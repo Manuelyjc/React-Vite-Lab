@@ -1,0 +1,139 @@
+/* Establece los estilos para la tarjeta de seguimiento de Twitter */
+.tw-followCard {
+  /* Utiliza un contenedor flexible */
+  display: flex;
+
+  /* Alinea los elementos verticalmente en el centro */
+  align-items: center;
+
+  /* Establece el color del texto en blanco */
+  color: #fff;
+
+  /* Establece el tamaño de la fuente */
+  font-size: .8rem;
+
+  /* Distribuye el espacio disponible entre los elementos */
+  justify-content: space-between;
+}
+
+/* Establece los estilos para la cabecera de la tarjeta de seguimiento */
+.tw-followCard-header {
+  /* Utiliza un contenedor flexible */
+  display: flex;
+
+  /* Alinea los elementos verticalmente en el centro */
+  align-items: center;
+
+  /* Establece el espacio entre los elementos */
+  gap: 4px;
+}
+
+/* Establece los estilos para la información dentro de la tarjeta de seguimiento */
+.tw-followCard-info {
+  /* Utiliza un contenedor flexible */
+  display: flex;
+
+  /* Organiza la información en una columna */
+  flex-direction: column;
+}
+
+/* Establece la opacidad del nombre de usuario */
+.tw-followCard-infoUserName {
+  opacity: .6;
+}
+
+/* Establece los estilos para el avatar del usuario */
+.tw-followCard-avatar {
+  /* Define el ancho y alto del avatar */
+  width: 48px;
+  height: 48px;
+
+  /* Establece el radio de la esquina para dar forma circular al avatar */
+  border-radius: 1000px;
+}
+
+/* Establece los estilos para el botón de seguimiento */
+.tw-followCard-button {
+  /* Establece el cursor en forma de puntero */
+  cursor: pointer;
+
+  /* Define el margen a la izquierda del botón */
+  margin-left: 16px;
+
+  /* Elimina el borde del botón */
+  border: 0;
+
+  /* Establece el radio de la esquina para dar forma circular al botón */
+  border-radius: 999px;
+
+  /* Define el relleno del botón */
+  padding: 6px 16px;
+
+  /* Define el peso de la fuente en negrita */
+  font-weight: bold;
+
+  /* Establece un borde sólido de color negro */
+  border: 1px solid #000;
+
+  /* Define la transición para el cambio de color de fondo */
+  transition: .3s ease background-color;
+}
+
+/* Establece los estilos al pasar el cursor sobre el botón */
+.tw-followCard-button:hover {
+  /* Reduce ligeramente la opacidad */
+  opacity: .8;
+}
+
+/* Establece los estilos para el texto del botón */
+.tw-followCard-text {
+  display: block;
+}
+
+/* Establece los estilos para el botón cuando ya se está siguiendo al usuario */
+.tw-followCard-button.is-following {
+  /* Establece un borde sólido de color azul */
+  border: 1px solid #325add;
+
+  /* Define el fondo transparente */
+  background: transparent;
+
+  /* Establece el color del texto en azul claro */
+  color: #b1e2f8;
+
+  /* Define el ancho del botón */
+  width: 140px;
+}
+
+/* Establece los estilos al pasar el cursor sobre el botón cuando ya se está siguiendo al usuario */
+.tw-followCard-button.is-following:hover {
+  /* Define un color de fondo semi-transparente */
+  background-color: rgba(255, 0, 0, 0.178);
+
+  /* Cambia el color del texto a rojo */
+  color: red;
+
+  /* Cambia el borde a rojo */
+  border: 1px solid red;
+
+  /* Define la transición para todos los cambios */
+  transition: .3s ease all;
+
+  /* Establece la opacidad a 1 */
+  opacity: 1;
+}
+
+/* Establece los estilos para ocultar el texto del botón al pasar el cursor sobre él */
+.tw-followCard-button.is-following:hover .tw-followCard-text {
+  display: none;
+}
+
+/* Establece los estilos para mostrar el texto "Dejar de seguir" al pasar el cursor sobre el botón */
+.tw-followCard-button.is-following:hover .tw-followCard-stopFollow {
+  display: block;
+}
+
+/* Establece los estilos para ocultar el texto "Dejar de seguir" por defecto */
+.tw-followCard-stopFollow {
+  display: none;
+}
