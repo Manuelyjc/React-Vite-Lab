@@ -18,6 +18,6 @@ Este repositorio contiene el código fuente para un laboratorio práctico donde 
 
 2-https://create-react-app.dev/ 
 
-3-https://soysena-my.sharepoint.com/:w:/g/personal/juammillan_soy_sena_edu_co/EdSZItOdqIVKhw6awFnUyMgBAWLcmRbA81XWueJsnxZTEQ?e=QnLk5x
+3-Guia:https://soysena-my.sharepoint.com/:w:/g/personal/judncorrea_soy_sena_edu_co/EZu9LBn-Nx1PnG1Dz8FctS0BNUGj3Dm8Q_FXURISlrXEGQ?e=aSGhzw
 
-4-https://www.canva.com/design/DAF8KluV2_I/3q3sK8_Y0R0V5n9mLNwJLQ/edit?utm_content=DAF8KluV2_I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+4-Presentación: https://www.canva.com/design/DAF8KluV2_I/3q3sK8_Y0R0V5n9mLNwJLQ/edit?utm_content=DAF8KluV2_I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
